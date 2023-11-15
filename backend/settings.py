@@ -1,10 +1,14 @@
+import os
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = "django-insecure-h-h)+f-+c73nyd+6a29angqzlcznhe@i32hn(tcq88h57a0die"
+SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
 
-DEBUG = True
+DEBUG = os.getenv("DJANGO_DEBUG")
 
 ALLOWED_HOSTS = []
 CORS_ORIGIN_ALLOW_ALL = True
@@ -19,7 +23,7 @@ INSTALLED_APPS = [
     "django.contrib.staticfiles",
     "corsheaders",  # new
     "rest_framework",  # new
-    "api.authentication",  # new
+    "api",  # new
 ]
 
 MIDDLEWARE = [
@@ -31,7 +35,6 @@ MIDDLEWARE = [
     "django.contrib.messages.middleware.MessageMiddleware",
     "django.middleware.clickjacking.XFrameOptionsMiddleware",
     "corsheaders.middleware.CorsMiddleware",  # new
-    "django.middleware.common.CommonMiddleware",  # new
 ]
 
 ROOT_URLCONF = "backend.urls"
@@ -88,4 +91,4 @@ STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
-AUTH_USER_MODEL = "authentication.User"  # new
+AUTH_USER_MODEL = "api.User"
