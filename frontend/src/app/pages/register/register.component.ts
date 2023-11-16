@@ -16,11 +16,10 @@ export class RegisterComponent implements OnInit {
 
   ngOnInit(): void {
     this.form = this.formBuilder.group({
-      firstname: '',
-      lastname: '',
+      username: '',
       email: '',
-      password: '',
-      confirmPassword: ''
+      password1: '',
+      password2: ''
     });
   }
 

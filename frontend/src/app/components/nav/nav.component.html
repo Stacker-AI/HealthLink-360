@@ -32,17 +32,24 @@
           >
         </li>
       </ul>
-
       <div class="text-end ml-auto">
         <a
+          *ngIf="!authService.isLoggedIn()"
           routerLink="/login"
           class="btn border border-white text-white hover:bg-white hover:text-gray-800 py-2 px-4 rounded"
           >Login</a
         >
         <a
+          *ngIf="!authService.isLoggedIn()"
           routerLink="/register"
           class="btn border border-white text-white hover:bg-white hover:text-gray-800 py-2 px-4 rounded ml-2"
           >Register</a
+        >
+        <a
+          *ngIf="authService.isLoggedIn()"
+          routerLink="/logout"
+          class="btn border border-white text-white hover:bg-white hover:text-gray-800 py-2 px-4 rounded ml-2"
+          >Logout</a
         >
       </div>
     </div>
