@@ -9,7 +9,7 @@ export class AuthService {
   constructor(private http: HttpClient) { }
 
   register(body: JSON) {
-    return this.http.post('http://127.0.0.1:8000/auth/users', body, { headers: this.httpHeaders, withCredentials: true })
+    return this.http.post('http://127.0.0.1:8000/auth/users/', body, { headers: this.httpHeaders, withCredentials: true })
   }
 
   login(body: JSON) {
@@ -26,20 +26,5 @@ export class AuthService {
 
   forgotPassword(body: JSON) {
     return this.http.post('http://127.0.0.1:8000/auth/users/reset_password/', body, { headers: this.httpHeaders, withCredentials: true })
-  }
-
-  isLoggedIn() {
-    const httpResponse = this.getUser().subscribe((res: any) => 
-    {
-      console.log(res)
-    })
-
-    if (httpResponse) {
-      return true
-    }
-    return false
-  }  
-  
-
-  
+  } 
 }
