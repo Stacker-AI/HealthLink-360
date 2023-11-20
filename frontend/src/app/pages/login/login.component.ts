@@ -25,7 +25,6 @@ export class LoginComponent {
 
   submit() {
     this.authService.login(this.form.getRawValue()).subscribe((res: any) => {
-      this.authService.accessToken = res.token;
       this.router.navigate(['/'])
     })
 

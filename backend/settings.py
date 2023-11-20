@@ -1,4 +1,4 @@
-import os
+from os import getenv
 from pathlib import Path
 from dotenv import load_dotenv
 
@@ -6,15 +6,15 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.getenv("DJANGO_SECRET_KEY")
+SECRET_KEY = getenv("DJANGO_SECRET_KEY")
 
-DEBUG = os.getenv("DJANGO_DEBUG")
+DEBUG = getenv("DJANGO_DEBUG", default=False)
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:4200",
-]
+CORS_ALLOWED_ORIGINS = getenv("DJANGO_CORS_ALLOWED_ORIGINS").split(" ")
 
-CORS_ALLOW_CREDENTIALS = True
+ALLOWED_HOSTS = getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost").split(" ")
+
+CORS_ALLOW_CREDENTIALS = getenv("DJANGO_CORS_ALLOW_CREDENTIALS", "False") == "True"
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -27,24 +27,33 @@ INSTALLED_APPS = [
     "corsheaders",
     "rest_framework",
     "djoser",
+    "users",
 ]
 
 REST_FRAMEWORK = {
-    "DEFAULT_AUTHENTICATION_CLASSES": (
-        "rest_framework_simplejwt.authentication.JWTAuthentication",
-    ),
+    "DEFAULT_AUTHENTICATION_CLASSES": ("users.authentication.CustomJWTAuthentication",),
+    "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
 }
+
+AUTH_COOKIE = "access"
+AUTH_COOKIE_ACCESS_MAX_AGE = 60 * 5
+AUTH_COOKIE_REFRESH_MAX_AGE = 60 * 60 * 24
+AUTH_COOKIE_SECURE = getenv("DJANGO_AUTH_COOKIES_SECURE", "True") == "True"
+AUTH_COOKIE_HTTP_ONLY = True
+AUTH_COOKIE_SAME_SITE = "None"
+AUTH_COOKIE_PATH = "/"
 
 SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("JWT",),
 }
 
 DJOSER = {
-    "PASSWORD_RESET_CONFIRM_URL": "#/password/reset/confirm/{uid}/{token}",
-    "USERNAME_RESET_CONFIRM_URL": "#/email/reset/confirm/{uid}/{token}",
-    "ACTIVATION_URL": "#/activate/{uid}/{token}",
+    "PASSWORD_RESET_CONFIRM_URL": "password-reset/{uid}/{token}",
+    "ACTIVATION_URL": "activation/{uid}/{token}",
+    "USER_CREATE_PASSWORD_RETYPE": True,
+    "PASSWORD_RESET_CONFIRM_RETYPE": True,
     "SEND_ACTIVATION_EMAIL": False,
-    "SERIALIZERS": {},
+    "TOKEN_MODEL": None,
 }
 
 
@@ -60,7 +69,6 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 
-ROOT_URLCONF = "backend.urls"
 
 TEMPLATES = [
     {
@@ -77,8 +85,6 @@ TEMPLATES = [
         },
     },
 ]
-
-WSGI_APPLICATION = "backend.wsgi.application"
 
 DATABASES = {
     "default": {
@@ -102,6 +108,10 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
+WSGI_APPLICATION = "backend.wsgi.application"
+
+ROOT_URLCONF = "backend.urls"
+
 LANGUAGE_CODE = "en-us"
 
 TIME_ZONE = "UTC"
@@ -113,3 +123,5 @@ USE_TZ = True
 STATIC_URL = "static/"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
+
+AUTH_USER_MODEL = "users.UserAccount"
