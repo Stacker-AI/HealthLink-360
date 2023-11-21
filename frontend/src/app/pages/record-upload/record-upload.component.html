@@ -1,0 +1,396 @@
+<mat-stepper [linear]="isLinear" #stepper>
+    <mat-step [stepControl]="firstFormGroup">
+        <form [formGroup]="firstFormGroup">
+            <ng-template matStepLabel>Vital Signs Questionnaire</ng-template>
+
+
+            <label>Blood Pressure: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let blood of bloods" class="example-radio-button" [value]="blood">
+                    {{ blood }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Heart Rate:</label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let heart of hearts" class="example-radio-button" [value]="heart">
+                    {{ heart }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Respiratory Rate:</label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let respiratory of respiratories" class="example-radio-button"
+                    [value]="respiratory">
+                    {{ respiratory }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Body Temperature:</label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let temp of tempes" class="example-radio-button" [value]="temp">
+                    {{ temp }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+
+
+
+
+
+            <div>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+        </form>
+    </mat-step>
+
+
+    <mat-step [stepControl]="secondFormGroup" label=" Anthropometric Measurements Questionnaire">
+        <form [formGroup]="secondFormGroup">
+
+            <label>Height (in cm): </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let height of heights" class="example-radio-button" [value]="height">
+                    {{ height }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Weight (in kg): </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let weight of weights" class="example-radio-button" [value]="weight">
+                    {{ weight }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Body Mass Index (BMI): </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let bmi of bmis" class="example-radio-button" [value]="bmi">
+                    {{ bmi }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+        </form>
+    </mat-step>
+
+
+    <mat-step [stepControl]="thirdFormGroup" label="Physical Activity Level Questionnaire">
+        <form [formGroup]="thirdFormGroup">
+
+            <label>Physical Activity Level: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let physical of physicals" class="example-radio-button" [value]="physical">
+                    {{ physical }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Dietary Habits: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let dietry of dietries" class="example-radio-button" [value]="dietry">
+                    {{ dietry }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Smoking Status: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let smoke of smokies" class="example-radio-button" [value]="smoke">
+                    {{ smoke }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Alcohol Consumption: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let alcohol of alcohols" class="example-radio-button" [value]="alcohol">
+                    {{ alcohol }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+
+
+        </form>
+    </mat-step>
+
+    <mat-step [stepControl]="fourthFormGroup" label="Medical History Questionnaire">
+        <form [formGroup]="fourthFormGroup">
+
+            <label>Previous Illnesses: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let ill of ills" class="example-radio-button" [value]="ill">
+                    {{ill }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Surgeries: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let surgery of surgeries" class="example-radio-button" [value]="surgery">
+                    {{ surgery }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Chronic Conditions: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let Chronic of chronics" class="example-radio-button" [value]="Chronic">
+                    {{ Chronic }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Allergies:</label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let allergy of allergies" class="example-radio-button" [value]="allergy">
+                    {{ allergy }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Family Medical History:</label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let history of histories" class="example-radio-button" [value]="history">
+                    {{ history }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+
+
+        </form>
+    </mat-step>
+
+
+    <mat-step [stepControl]="fifthFormGroup" label="Medication History Questionnaire">
+        <form [formGroup]="fifthFormGroup">
+
+            <label>Current Medications: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let current of currents" class="example-radio-button" [value]="current">
+                    {{current }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Frequency: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let frequency of frequencies" class="example-radio-button"
+                    [value]="frequency">
+                    {{ frequency }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+
+
+        </form>
+    </mat-step>
+
+
+
+    <mat-step [stepControl]="sixthFormGroup" label="Immunization History Questionnaire">
+        <form [formGroup]="sixthFormGroup">
+
+            <label>Vaccination Record: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let vaccine of vaccines" class="example-radio-button" [value]="vaccine">
+                    {{vaccine }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+
+
+        </form>
+    </mat-step>
+
+
+    <mat-step [stepControl]="seventhFormGroup" label="Mental Health">
+        <form [formGroup]="seventhFormGroup">
+
+            <label>Stress Levels: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let mental of mentals" class="example-radio-button" [value]="mental">
+                    {{mental }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Sleep Patterns: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let sleep of sleeps" class="example-radio-button" [value]="sleep">
+                    {{sleep }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+        </form>
+    </mat-step>
+
+
+    <mat-step [stepControl]="eighthFormGroup" label="Laboratory Results Questionnaire">
+        <form [formGroup]="eighthFormGroup">
+
+            <label>Blood Glucose Level: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let glucose of glucoses" class="example-radio-button" [value]="glucose">
+                    {{glucose }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Cholesterol Level: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let chol of choles" class="example-radio-button" [value]="chol">
+                    {{chol }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Complete Blood Count (CBC): </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let cbc of cbcs" class="example-radio-button" [value]="cbc">
+                    {{cbc}}
+                </mat-radio-button>
+            </mat-radio-group>
+
+
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+        </form>
+    </mat-step>
+
+    <mat-step [stepControl]="ninthFormGroup" label="Fitness Assessment Questionnaire">
+        <form [formGroup]="ninthFormGroup">
+
+            <label>Exercise Routine: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let exercise of exercises" class="example-radio-button" [value]="exercise">
+                    {{exercise }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Frequency and Intensity of Physical Activity: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let intensity of intensities" class="example-radio-button"
+                    [value]="intensity">
+                    {{intensity }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+        </form>
+    </mat-step>
+
+
+
+    <mat-step [stepControl]="tenthFormGroup" label="Women's Health Questionnaire">
+        <form [formGroup]="tenthFormGroup">
+
+            <label>Menstrual History: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let men of mens" class="example-radio-button" [value]="men">
+                    {{men }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Pregnancy History: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let pregnancy of pregnancies" class="example-radio-button"
+                    [value]="pregnancy">
+                    {{pregnancy }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+        </form>
+    </mat-step>
+
+    <mat-step [stepControl]="eleventhFormGroup" label="Environmental Exposures Questionnaire">
+        <form [formGroup]="eleventhFormGroup">
+
+            <label>Occupational Hazards: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let hazard of hazards" class="example-radio-button" [value]="hazard">
+                    {{hazard }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Environmental Allergies: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let alergy of alergies" class="example-radio-button" [value]="alergy">
+                    {{alergy }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+        </form>
+    </mat-step>
+
+
+    <mat-step [stepControl]="twelvethFormGroup" label="Social Determinants of Health">
+        <form [formGroup]="twelvethFormGroup">
+
+            <label>Socioeconomic Status: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let economy of economies" class="example-radio-button" [value]="economy">
+                    {{economy }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <label>Access to Healthcare: </label>
+            <mat-radio-group class="example-radio-group" [(ngModel)]="favoriteSeason">
+                <mat-radio-button *ngFor="let care of cares" class="example-radio-button" [value]="care">
+                    {{care }}
+                </mat-radio-button>
+            </mat-radio-group>
+
+            <div>
+                <button mat-button matStepperPrevious>Back</button>
+                <button mat-button matStepperNext>Next</button>
+            </div>
+
+        </form>
+    </mat-step>
+    <mat-step>
+        <ng-template matStepLabel>Done</ng-template>
+        <p>You are now done.</p>
+        <div>
+            <button mat-button matStepperPrevious>Back</button>
+            <button mat-button (click)="stepper.reset()">Reset</button>
+        </div>
+    </mat-step>
+</mat-stepper>
