@@ -1,6 +1,9 @@
-# from django.urls import path
-# from . import views
+from django.urls import path
+from api.views import UserProfileView, UserMedicalRecordsView
+from . import views
 
-# urlpatterns = [
-#     path(r"register/", views.UserView.as_view()),
-# ]
+
+urlpatterns = [
+    path("profile/", UserProfileView.as_view()),
+    path("records/", UserMedicalRecordsView.as_view()),
+]

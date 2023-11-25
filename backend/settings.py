@@ -6,6 +6,10 @@ load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+MEDIA_ROOT = BASE_DIR / "uploads"
+
+MEDIA_URL = "/uploads/"
+
 SECRET_KEY = getenv("DJANGO_SECRET_KEY")
 
 DEBUG = getenv("DJANGO_DEBUG", default=False)
@@ -28,6 +32,7 @@ INSTALLED_APPS = [
     "rest_framework",
     "djoser",
     "users",
+    "api",
 ]
 
 REST_FRAMEWORK = {
@@ -36,8 +41,8 @@ REST_FRAMEWORK = {
 }
 
 AUTH_COOKIE = "access"
-AUTH_COOKIE_ACCESS_MAX_AGE = 60 * 5
-AUTH_COOKIE_REFRESH_MAX_AGE = 60 * 60 * 24
+AUTH_COOKIE_ACCESS_MAX_AGE = 60 * 60 * 24
+AUTH_COOKIE_REFRESH_MAX_AGE = 60 * 60 * 24 * 7
 AUTH_COOKIE_SECURE = getenv("DJANGO_AUTH_COOKIES_SECURE", "True") == "True"
 AUTH_COOKIE_HTTP_ONLY = True
 AUTH_COOKIE_SAME_SITE = "None"

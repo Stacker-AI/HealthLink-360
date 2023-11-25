@@ -1,8 +1,14 @@
-# from rest_framework.serializers import ModelSerializer
-# from .models import User
+from rest_framework.serializers import ModelSerializer
+from .models import UserMedicalRecords, UserProfile
 
 
-# class UserSerializer(ModelSerializer):
-#     class Meta:
-#         model = User
-#         fields = "__all__"
+class UserProfileSerializer(ModelSerializer):
+    class Meta:
+        model = UserProfile
+        fields = "__all__"
+
+
+class UserMedicalRecordsSerializer(ModelSerializer):
+    class Meta:
+        model = UserMedicalRecords
+        fields = "__all__"
