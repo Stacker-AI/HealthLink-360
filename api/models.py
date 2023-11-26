@@ -75,3 +75,6 @@ class UserMedicalRecords(models.Model):
 
     files = models.FileField(upload_to="medical_records/")
     file_type = models.CharField(max_length=20, choices=FILE_TYPES)
+
+    def __str__(self):
+        return self.file_type

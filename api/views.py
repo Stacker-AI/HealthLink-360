@@ -60,3 +60,30 @@ class UserMedicalRecordsView(APIView):
         serializer.is_valid(raise_exception=True)
         serializer.save()
         return Response(serializer.data, status=status.HTTP_200_OK)
+
+    # def patch(self, request, pk, format=None):
+    #     file_obj = request.FILES.get("files")
+    #     if not file_obj:
+    #         message = {"message": "No file found"}
+    #         return Response(message, status=status.HTTP_400_BAD_REQUEST)
+
+    #     file_type = request.data.get("file_type")
+    #     if not file_type:
+    #         message = {"message": "No file type found"}
+    #         return Response(message, status=status.HTTP_400_BAD_REQUEST)
+
+    #     data = {
+    #         "user": request.user.id,
+    #         "files": file_obj,
+    #         "file_type": file_type,
+    #     }
+    #     try:
+    #         user_medical_records = UserMedicalRecords.objects.get(pk=pk)
+    #     except UserMedicalRecords.DoesNotExist:
+    #         message = {"message": "No medical records found"}
+    #         return Response(message, status=status.HTTP_404_NOT_FOUND)
+
+    #     serializer = UserMedicalRecordsSerializer(user_medical_records, data=data)
+    #     serializer.is_valid(raise_exception=True)
+    #     serializer.save()
+    #     return Response(serializer.data, status=status.HTTP_200_OK)

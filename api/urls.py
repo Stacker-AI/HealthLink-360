@@ -6,4 +6,5 @@ from . import views
 urlpatterns = [
     path("profile/", UserProfileView.as_view()),
     path("records/", UserMedicalRecordsView.as_view()),
+    # path("records/<int:pk>/", UserMedicalRecordsView.as_view()),
 ]
