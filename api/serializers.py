@@ -1,6 +1,10 @@
 from rest_framework.serializers import ModelSerializer
-from .models import UserMedicalRecords, UserProfile
+from .models import UserMedicalRecords, UserProfile, Country
 
+class CountrySerializer(ModelSerializer):
+    class Meta:
+        model = Country
+        fields = "__all__"  # all fields
 
 class UserProfileSerializer(ModelSerializer):
     class Meta:

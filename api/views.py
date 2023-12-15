@@ -1,11 +1,19 @@
-from .models import UserMedicalRecords, UserProfile
-from .serializers import UserMedicalRecordsSerializer, UserProfileSerializer
+from .models import UserMedicalRecords, UserProfile, Country
+from .serializers import UserMedicalRecordsSerializer, UserProfileSerializer, CountrySerializer
 
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.parsers import MultiPartParser, FormParser
 
+class CountryView(APIView):
+    def get(self, request, format=None):
+        countries = Country.objects.all()
+        print(countries)
+        serializer = CountrySerializer(countries, many=True)
+        return Response(serializer.data)
+
+    
 
 class UserProfileView(APIView):
     def get(self, request, format=None):
