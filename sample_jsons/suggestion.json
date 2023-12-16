@@ -1,0 +1,108 @@
+{
+  "results": {
+    "default": {
+      "matches": [
+        {
+          "suggestion": "Wyra",
+          "original": "Wyra",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Wyra",
+          "locality_slug": "wyra"
+        },
+        {
+          "suggestion": "Balaji Nagar",
+          "original": "Balaji Nagar",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Balaji Nagar",
+          "locality_slug": "balaji-nagar"
+        },
+        {
+          "suggestion": "Bus Station",
+          "original": "Bus Station",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Bus Station",
+          "locality_slug": "bus-station"
+        },
+        {
+          "suggestion": "Khammam",
+          "original": "Khammam",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Khammam",
+          "locality_slug": "khammam"
+        },
+        {
+          "suggestion": "Rotary Nagar",
+          "original": "Rotary Nagar",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Rotary Nagar",
+          "locality_slug": "rotary-nagar"
+        },
+        {
+          "suggestion": "Khanapuram Haweli",
+          "original": "Khanapuram Haweli",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Khanapuram Haweli",
+          "locality_slug": "khanapuram-haweli"
+        },
+        {
+          "suggestion": "Khanapuram",
+          "original": "Khanapuram",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Khanapuram",
+          "locality_slug": "khanapuram"
+        },
+        {
+          "suggestion": "Church Road",
+          "original": "Church Road",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Church Road",
+          "locality_slug": "church-road"
+        },
+        {
+          "suggestion": "Yellandu",
+          "original": "Yellandu",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Yellandu",
+          "locality_slug": "yellandu"
+        },
+        {
+          "suggestion": "Venkatagiri",
+          "original": "Venkatagiri",
+          "display_name": "LOCALITY",
+          "category": "locality",
+          "city": "khammam",
+          "city_slug": "khammam",
+          "locality": "Venkatagiri",
+          "locality_slug": "venkatagiri"
+        }
+      ]
+    }
+  }
+}

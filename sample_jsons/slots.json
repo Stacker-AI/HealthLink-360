@@ -1,0 +1,4916 @@
+{
+  "amount": 500,
+  "discount": 0,
+  "prepaid": false,
+  "prepaid_type": "disabled",
+  "slots": [
+    {
+      "tatkal": [],
+      "day": "Sat",
+      "date": "25 Nov",
+      "datestamp": "2023-11-25",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 10:00:00",
+              "available": false,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 10:30:00",
+              "available": false,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 11:00:00",
+              "available": false,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 11:30:00",
+              "available": false,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 12:00:00",
+              "available": false,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 12:30:00",
+              "available": false,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 13:00:00",
+              "available": false,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 13:30:00",
+              "available": false,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 14:00:00",
+              "available": false,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-25 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-25 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "saturday",
+      "relDay": "TODAY"
+    },
+    {
+      "tatkal": [],
+      "day": "Sun",
+      "date": "26 Nov",
+      "datestamp": "2023-11-26",
+      "slots": [],
+      "weekDay": "sunday",
+      "relDay": "TOM"
+    },
+    {
+      "tatkal": [],
+      "day": "Mon",
+      "date": "27 Nov",
+      "datestamp": "2023-11-27",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-27 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-27 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "monday"
+    },
+    {
+      "tatkal": [],
+      "day": "Tue",
+      "date": "28 Nov",
+      "datestamp": "2023-11-28",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-28 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-28 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "tuesday"
+    },
+    {
+      "tatkal": [],
+      "day": "Wed",
+      "date": "29 Nov",
+      "datestamp": "2023-11-29",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-29 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-29 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "wednesday"
+    },
+    {
+      "tatkal": [],
+      "day": "Thu",
+      "date": "30 Nov",
+      "datestamp": "2023-11-30",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-11-30 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-11-30 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "thursday"
+    },
+    {
+      "tatkal": [],
+      "day": "Fri",
+      "date": "1 Dec",
+      "datestamp": "2023-12-01",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-01 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-01 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "friday"
+    },
+    {
+      "tatkal": [],
+      "day": "Sat",
+      "date": "2 Dec",
+      "datestamp": "2023-12-02",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-02 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-02 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "saturday"
+    },
+    {
+      "tatkal": [],
+      "day": "Sun",
+      "date": "3 Dec",
+      "datestamp": "2023-12-03",
+      "slots": [],
+      "weekDay": "sunday"
+    },
+    {
+      "tatkal": [],
+      "day": "Mon",
+      "date": "4 Dec",
+      "datestamp": "2023-12-04",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-04 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-04 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "monday"
+    },
+    {
+      "tatkal": [],
+      "day": "Tue",
+      "date": "5 Dec",
+      "datestamp": "2023-12-05",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-05 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-05 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "tuesday"
+    },
+    {
+      "tatkal": [],
+      "day": "Wed",
+      "date": "6 Dec",
+      "datestamp": "2023-12-06",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-06 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-06 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "wednesday"
+    },
+    {
+      "tatkal": [],
+      "day": "Thu",
+      "date": "7 Dec",
+      "datestamp": "2023-12-07",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-07 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-07 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "thursday"
+    },
+    {
+      "tatkal": [],
+      "day": "Fri",
+      "date": "8 Dec",
+      "datestamp": "2023-12-08",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-08 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-08 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "friday"
+    },
+    {
+      "tatkal": [],
+      "day": "Sat",
+      "date": "9 Dec",
+      "datestamp": "2023-12-09",
+      "slots": [
+        {
+          "time": "10:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 10:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 10:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "11:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 11:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 11:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "12:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 12:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 12:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "13:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 13:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 13:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "14:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 14:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 14:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "15:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 15:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 15:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "16:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 16:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 16:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "17:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 17:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 17:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "18:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 18:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 18:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "19:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 19:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 19:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        },
+        {
+          "time": "20:00",
+          "timeslots": [
+            {
+              "ts": "2023-12-09 20:00:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            },
+            {
+              "ts": "2023-12-09 20:30:00",
+              "available": true,
+              "procedures": [
+                {
+                  "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+                  "name": "Consultation",
+                  "duration": 30,
+                  "prepaid": false
+                }
+              ],
+              "slot_id": "slot",
+              "type": "abs"
+            }
+          ]
+        }
+      ],
+      "weekDay": "saturday"
+    }
+  ],
+  "appointment_token": "ODY4ODQwUHJhY3RpY2VEb2N0b3I=",
+  "practice_doctor_id": 868840,
+  "check_first_timer": true,
+  "hours_to_next_slot": 1.18,
+  "hours_to_last_slot": 7.18,
+  "appointment_payment_details": {
+    "prepaid": false,
+    "amount": 500,
+    "discount": 0,
+    "discount_type": "",
+    "cancellation_fee": 0,
+    "prepaid_type": "disabled",
+    "cancellation_charge": 0,
+    "cancellation_fee_type": "ABSOLUTE",
+    "plus_discount": 0,
+    "total_amount_to_pay": 500,
+    "disclaimers_v2": [
+      {
+        "text": "If you wish to cancel or reschedule, you can do it upto 2 hours before the appointment time",
+        "hyperlink_texts": [],
+        "hyperlink_urls": [],
+        "bold_text": ["2 hours before"],
+        "position": 1,
+        "icon": "clock"
+      },
+      {
+        "text": "You will be charged Rs 50 cancellation fee if you cancel within 2 hours of your appointment time or absent",
+        "hyperlink_texts": [],
+        "hyperlink_urls": [],
+        "bold_text": ["Rs 50 cancellation fee"],
+        "position": 2,
+        "icon": "rupee"
+      },
+      {
+        "text": "However, in the event of doctor no show, you will not be charged a cancellation fee",
+        "hyperlink_texts": [],
+        "hyperlink_urls": [],
+        "bold_text": [],
+        "position": 3,
+        "icon": "smiley"
+      }
+    ]
+  },
+  "vn_enabled": true,
+  "mapped_service": "qikwell",
+  "procedures": [
+    {
+      "id": "4ca6b5ab-628a-4d01-ad2a-9f143c5a6e7e",
+      "name": "Consultation",
+      "duration": 30,
+      "prepaid": false
+    }
+  ],
+  "consent": {}
+}

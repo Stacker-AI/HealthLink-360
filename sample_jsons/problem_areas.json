@@ -1,0 +1,563 @@
+{
+  "problem_areas": {
+    "doctor_types": {
+      "names": [
+        { "id": 1, "name": "General Physician", "fabric_speciality_id": 14 },
+        { "id": 2, "name": "Specialist", "fabric_speciality_id": 1000 },
+        {
+          "id": 3,
+          "name": "Ayurvedic Practitioner",
+          "fabric_speciality_id": 4
+        },
+        { "id": 4, "name": "Homeopath", "fabric_speciality_id": 22 },
+        { "id": 5, "name": "Alternative Therapist", "fabric_speciality_id": 58 }
+      ],
+      "count": 5
+    },
+    "categories": [
+      {
+        "id": 1,
+        "name": "Common Issues",
+        "category_problem_areas": [
+          {
+            "id": 2,
+            "name": "Psychiatry",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 39,
+            "is_activated_for_paid": true,
+            "rank": 5,
+            "fee": {
+              "doctor_fee": 174,
+              "internet_handling_charge": 425,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 599,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 3,
+            "name": "Ear, Nose, Throat",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 11,
+            "is_activated_for_paid": true,
+            "rank": 8,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 450,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 599,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 5,
+            "name": "Dermatology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 9,
+            "is_activated_for_paid": true,
+            "rank": 3,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 400,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 549,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 6,
+            "name": "Dental",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [1],
+            "fabric_speciality_id": 8,
+            "is_activated_for_paid": true,
+            "rank": 16,
+            "fee": {
+              "doctor_fee": 150,
+              "internet_handling_charge": 249,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 399,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 9,
+            "name": "Urology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 47,
+            "is_activated_for_paid": true,
+            "rank": 9,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 450,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 599,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 10,
+            "name": "Stomach and digestion",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 14,
+            "is_activated_for_paid": true,
+            "rank": 6,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 350,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 499,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 13,
+            "name": "Orthopedic",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 32,
+            "is_activated_for_paid": true,
+            "rank": 10,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 350,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 499,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 14,
+            "name": "Sexology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [1],
+            "fabric_speciality_id": 56,
+            "is_activated_for_paid": true,
+            "rank": 4,
+            "fee": {
+              "doctor_fee": 174,
+              "internet_handling_charge": 425,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 599,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 16,
+            "name": "Gynaecology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [1],
+            "fabric_speciality_id": 20,
+            "is_activated_for_paid": true,
+            "rank": 1,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 450,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 599,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 28,
+            "name": "Physiotherapy",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 37,
+            "is_activated_for_paid": true,
+            "rank": 21,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 250,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 399,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 29,
+            "name": "General Surgery",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 16,
+            "is_activated_for_paid": true,
+            "rank": 22,
+            "fee": {
+              "doctor_fee": 299,
+              "internet_handling_charge": 250,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 549,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 30,
+            "name": "Psychological Counselling",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 40,
+            "is_activated_for_paid": true,
+            "rank": 23,
+            "fee": {
+              "doctor_fee": 699,
+              "internet_handling_charge": 400,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 1099,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 32,
+            "name": "Nephrology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 23,
+            "is_activated_for_paid": true,
+            "rank": 26,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 400,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 549,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 34,
+            "name": "Rheumatology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 43,
+            "is_activated_for_paid": true,
+            "rank": 28,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 300,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 449,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 35,
+            "name": "Gastroenterology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 14,
+            "is_activated_for_paid": true,
+            "rank": 29,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 450,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 599,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Animal Health",
+        "category_problem_areas": [
+          {
+            "id": 31,
+            "name": "Veterinary",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 49,
+            "is_activated_for_paid": true,
+            "rank": 25,
+            "fee": {
+              "doctor_fee": 199,
+              "internet_handling_charge": 350,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 549,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Other",
+        "category_problem_areas": [
+          {
+            "id": 1,
+            "name": "Neurology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 24,
+            "is_activated_for_paid": true,
+            "rank": 11,
+            "fee": {
+              "doctor_fee": 299,
+              "internet_handling_charge": 250,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 549,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 4,
+            "name": "Eye and Vision",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [1],
+            "fabric_speciality_id": 30,
+            "is_activated_for_paid": true,
+            "rank": 15,
+            "fee": {
+              "doctor_fee": 149,
+              "internet_handling_charge": 400,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 549,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 7,
+            "name": "Pulmonology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 15,
+            "is_activated_for_paid": true,
+            "rank": 17,
+            "fee": {
+              "doctor_fee": 249,
+              "internet_handling_charge": 300,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 549,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 8,
+            "name": "Cardiology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 6,
+            "is_activated_for_paid": true,
+            "rank": 12,
+            "fee": {
+              "doctor_fee": 299,
+              "internet_handling_charge": 300,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 599,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 17,
+            "name": "Pediatrics",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 34,
+            "is_activated_for_paid": true,
+            "rank": 7,
+            "fee": {
+              "doctor_fee": 174,
+              "internet_handling_charge": 425,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 599,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 18,
+            "name": "Diet and nutrition",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 10,
+            "is_activated_for_paid": true,
+            "rank": 13,
+            "fee": {
+              "doctor_fee": 125,
+              "internet_handling_charge": 325,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 450,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 19,
+            "name": "Cancer",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [1],
+            "fabric_speciality_id": 29,
+            "is_activated_for_paid": true,
+            "rank": 20,
+            "fee": {
+              "doctor_fee": 299,
+              "internet_handling_charge": 300,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 599,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 20,
+            "name": "Diabetology",
+            "default_doctor_type": 2,
+            "disabled_doctor_types": [],
+            "fabric_speciality_id": 12,
+            "is_activated_for_paid": true,
+            "rank": 14,
+            "fee": {
+              "doctor_fee": 249,
+              "internet_handling_charge": 300,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 549,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 22,
+            "name": "General physician",
+            "default_doctor_type": 1,
+            "disabled_doctor_types": [2, 5],
+            "fabric_speciality_id": 15,
+            "is_activated_for_paid": true,
+            "rank": 2,
+            "fee": {
+              "doctor_fee": 99,
+              "internet_handling_charge": 400,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 499,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            },
+            "subscription_fee": [
+              {
+                "currency": "PKR",
+                "fee": 199,
+                "projected_fee": 199,
+                "cut_fee": 300,
+                "doctor_fee": 149,
+                "gst_amount": 0,
+                "internet_handling_charge": 50,
+                "gst_percent": 0,
+                "validity": "1 Month",
+                "currency_symbol": "\u20A8",
+                "currency_symbol_prefix": "IN "
+              }
+            ]
+          },
+          {
+            "id": 24,
+            "name": "I have some other problem",
+            "default_doctor_type": 1,
+            "disabled_doctor_types": [2],
+            "fabric_speciality_id": 0,
+            "is_activated_for_paid": true,
+            "rank": 24,
+            "fee": {
+              "doctor_fee": 99,
+              "internet_handling_charge": 400,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 499,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Alternative Treatment",
+        "category_problem_areas": [
+          {
+            "id": 25,
+            "name": "Ayurveda",
+            "default_doctor_type": 3,
+            "disabled_doctor_types": [1, 2, 4, 5],
+            "fabric_speciality_id": 4,
+            "is_activated_for_paid": true,
+            "rank": 18,
+            "fee": {
+              "doctor_fee": 99,
+              "internet_handling_charge": 300,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 399,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          },
+          {
+            "id": 26,
+            "name": "Homeopathy",
+            "default_doctor_type": 4,
+            "disabled_doctor_types": [1, 2, 3, 5],
+            "fabric_speciality_id": 22,
+            "is_activated_for_paid": true,
+            "rank": 19,
+            "fee": {
+              "doctor_fee": 100,
+              "internet_handling_charge": 399,
+              "gst_amount": 0,
+              "gst_percent": 0,
+              "fee": 499,
+              "currency": "PKR",
+              "currency_symbol": "\u20A8"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}
