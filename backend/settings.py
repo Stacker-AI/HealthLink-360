@@ -16,7 +16,9 @@ DEBUG = getenv("DJANGO_DEBUG", default=False)
 
 CORS_ALLOWED_ORIGINS = getenv("DJANGO_CORS_ALLOWED_ORIGINS").split(" ")
 
-ALLOWED_HOSTS = getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost").split(" ")
+# ALLOWED_HOSTS = getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost").split(" ")
+
+ALLOWED_HOSTS = ["*"]
 
 CORS_ALLOW_CREDENTIALS = getenv("DJANGO_CORS_ALLOW_CREDENTIALS", "False") == "True"
 
