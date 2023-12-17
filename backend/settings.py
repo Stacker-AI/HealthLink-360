@@ -4,23 +4,27 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+# Settings for static files and media files
+
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 MEDIA_ROOT = BASE_DIR / "uploads"
 
-MEDIA_URL = "/uploads/"
+MEDIA_URL = getenv("DJANGO_MEDIA_URL")
+
+# Security settings
 
 SECRET_KEY = getenv("DJANGO_SECRET_KEY")
 
-DEBUG = getenv("DJANGO_DEBUG", default=False)
+DEBUG = getenv("DJANGO_DEBUG")
 
 CORS_ALLOWED_ORIGINS = getenv("DJANGO_CORS_ALLOWED_ORIGINS").split(" ")
 
-# ALLOWED_HOSTS = getenv("DJANGO_ALLOWED_HOSTS", "127.0.0.1,localhost").split(" ")
+ALLOWED_HOSTS = getenv("DJANGO_ALLOWED_HOSTS").split(" ")
 
-ALLOWED_HOSTS = ["*"]
+CORS_ALLOW_CREDENTIALS = getenv("DJANGO_CORS_ALLOW_CREDENTIALS") == "True"
 
-CORS_ALLOW_CREDENTIALS = getenv("DJANGO_CORS_ALLOW_CREDENTIALS", "False") == "True"
+# Application definition
 
 INSTALLED_APPS = [
     "django.contrib.admin",
@@ -36,20 +40,23 @@ INSTALLED_APPS = [
     "users",
     "api",
     "django_extensions",
+    "django.contrib.admindocs",
 ]
+
+# Authentication and Authorization settings
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": ("users.authentication.CustomJWTAuthentication",),
     # "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
 }
 
-AUTH_COOKIE = "access"
-AUTH_COOKIE_ACCESS_MAX_AGE = 60 * 60 * 24
-AUTH_COOKIE_REFRESH_MAX_AGE = 60 * 60 * 24 * 7
-AUTH_COOKIE_SECURE = getenv("DJANGO_AUTH_COOKIES_SECURE", "True") == "True"
-AUTH_COOKIE_HTTP_ONLY = True
-AUTH_COOKIE_SAME_SITE = "None"
-AUTH_COOKIE_PATH = "/"
+AUTH_COOKIE = getenv("DJANGO_AUTH_COOKIE")
+AUTH_COOKIE_ACCESS_MAX_AGE = getenv("DJANGO_AUTH_COOKIE_ACCESS_MAX_AGE")
+AUTH_COOKIE_REFRESH_MAX_AGE = getenv("DJANGO_AUTH_COOKIE_REFRESH_MAX_AGE")
+AUTH_COOKIE_SECURE = getenv("DJANGO_AUTH_COOKIES_SECURE") == "True"
+AUTH_COOKIE_HTTP_ONLY = getenv("DJANGO_AUTH_COOKIES_HTTP_ONLY") == "True"
+AUTH_COOKIE_SAME_SITE = getenv("DJANGO_AUTH_COOKIES_SAME_SITE")
+AUTH_COOKIE_PATH = getenv("DJANGO_AUTH_COOKIES_PATH")
 
 SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("JWT",),
@@ -77,6 +84,7 @@ MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
 ]
 
+# General settings
 
 TEMPLATES = [
     {
@@ -128,7 +136,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-STATIC_URL = "static/"
+STATIC_URL = getenv("DJANGO_STATIC_URL")
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
