@@ -1,19 +1,75 @@
-from .models import UserMedicalRecords, UserProfile, Country
-from .serializers import UserMedicalRecordsSerializer, UserProfileSerializer, CountrySerializer
+from .models import (
+    Doctor,
+    Patient,
+    Appointment,
+    Prescription,
+    UserProfile,
+)
+from .serializers import (
+    UserProfileSerializer,
+    DoctorSerializer,
+    PatientSerializer,
+    AppointmentSerializer,
+    PrescriptionSerializer,
+)
 
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
 from rest_framework.parsers import MultiPartParser, FormParser
 
-class CountryView(APIView):
+
+class DoctorView(APIView):
     def get(self, request, format=None):
-        countries = Country.objects.all()
-        print(countries)
-        serializer = CountrySerializer(countries, many=True)
+        doctors = Doctor.objects.all()
+        serializer = DoctorSerializer(doctors, many=True)
         return Response(serializer.data)
 
-    
+    def post(self, request, format=None):
+        serializer = DoctorSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+class PatientView(APIView):
+    def get(self, request, format=None):
+        patients = Patient.objects.all()
+        serializer = PatientSerializer(patients, many=True)
+        return Response(serializer.data)
+
+    def post(self, request, format=None):
+        serializer = PatientSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+class AppointmentView(APIView):
+    def get(self, request, format=None):
+        appointments = Appointment.objects.all()
+        serializer = AppointmentSerializer(appointments, many=True)
+        return Response(serializer.data)
+
+    def post(self, request, format=None):
+        serializer = AppointmentSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
+class PrescriptionView(APIView):
+    def get(self, request, format=None):
+        prescriptions = Prescription.objects.all()
+        serializer = PrescriptionSerializer(prescriptions, many=True)
+        return Response(serializer.data)
+
+    def post(self, request, format=None):
+        serializer = PrescriptionSerializer(data=request.data)
+        serializer.is_valid(raise_exception=True)
+        serializer.save()
+        return Response(serializer.data, status=status.HTTP_201_CREATED)
+
 
 class UserProfileView(APIView):
     def get(self, request, format=None):
@@ -33,65 +89,3 @@ class UserProfileView(APIView):
         serializer.is_valid(raise_exception=True)
         serializer.save()
         return Response(serializer.data, status=status.HTTP_201_CREATED)
-
-
-class UserMedicalRecordsView(APIView):
-    parser_classes = [MultiPartParser, FormParser]
-
-    def get(self, request, format=None):
-        user = request.user
-        try:
-            user_medical_records = UserMedicalRecords.objects.get(user=user)
-        except UserMedicalRecords.DoesNotExist:
-            message = {"message": "No medical records found"}
-            return Response(message, status=status.HTTP_404_NOT_FOUND)
-        serializer = UserMedicalRecordsSerializer(user_medical_records)
-        return Response(serializer.data)
-
-    def post(self, request, format=None):
-        file_obj = request.FILES.get("files")
-        if not file_obj:
-            message = {"message": "No file found"}
-            return Response(message, status=status.HTTP_400_BAD_REQUEST)
-
-        file_type = request.data.get("file_type")
-        if not file_type:
-            message = {"message": "No file type found"}
-            return Response(message, status=status.HTTP_400_BAD_REQUEST)
-
-        data = {
-            "user": request.user.id,
-            "files": file_obj,
-            "file_type": file_type,
-        }
-        serializer = UserMedicalRecordsSerializer(data=data)
-        serializer.is_valid(raise_exception=True)
-        serializer.save()
-        return Response(serializer.data, status=status.HTTP_200_OK)
-
-    # def patch(self, request, pk, format=None):
-    #     file_obj = request.FILES.get("files")
-    #     if not file_obj:
-    #         message = {"message": "No file found"}
-    #         return Response(message, status=status.HTTP_400_BAD_REQUEST)
-
-    #     file_type = request.data.get("file_type")
-    #     if not file_type:
-    #         message = {"message": "No file type found"}
-    #         return Response(message, status=status.HTTP_400_BAD_REQUEST)
-
-    #     data = {
-    #         "user": request.user.id,
-    #         "files": file_obj,
-    #         "file_type": file_type,
-    #     }
-    #     try:
-    #         user_medical_records = UserMedicalRecords.objects.get(pk=pk)
-    #     except UserMedicalRecords.DoesNotExist:
-    #         message = {"message": "No medical records found"}
-    #         return Response(message, status=status.HTTP_404_NOT_FOUND)
-
-    #     serializer = UserMedicalRecordsSerializer(user_medical_records, data=data)
-    #     serializer.is_valid(raise_exception=True)
-    #     serializer.save()
-    #     return Response(serializer.data, status=status.HTTP_200_OK)

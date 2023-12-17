@@ -33,6 +33,7 @@ INSTALLED_APPS = [
     "djoser",
     "users",
     "api",
+    "django_extensions",
 ]
 
 REST_FRAMEWORK = {

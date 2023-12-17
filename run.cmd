@@ -5,7 +5,9 @@ venv\Scripts\activate
 pip install -r requirements.txt
 
 python manage.py makemigrations
+python manage.py migrate --run-syncdb
 python manage.py migrate
 python manage.py runserver
+python manage.py createsuperuser
 
-start cmd /k "cd frontend && ng serve"
+python manage.py graph_models api -o api_model.png

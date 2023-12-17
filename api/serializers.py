@@ -1,18 +1,38 @@
 from rest_framework.serializers import ModelSerializer
-from .models import UserMedicalRecords, UserProfile, Country
+from .models import (
+    Doctor,
+    Patient,
+    Appointment,
+    Prescription,
+    UserProfile,
+)
 
-class CountrySerializer(ModelSerializer):
+
+class DoctorSerializer(ModelSerializer):
     class Meta:
-        model = Country
-        fields = "__all__"  # all fields
+        model = Doctor
+        fields = "__all__"
+
+
+class PatientSerializer(ModelSerializer):
+    class Meta:
+        model = Patient
+        fields = "__all__"
+
+
+class AppointmentSerializer(ModelSerializer):
+    class Meta:
+        model = Appointment
+        fields = "__all__"
+
+
+class PrescriptionSerializer(ModelSerializer):
+    class Meta:
+        model = Prescription
+        fields = "__all__"
+
 
 class UserProfileSerializer(ModelSerializer):
     class Meta:
         model = UserProfile
-        fields = "__all__"
-
-
-class UserMedicalRecordsSerializer(ModelSerializer):
-    class Meta:
-        model = UserMedicalRecords
         fields = "__all__"
