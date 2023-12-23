@@ -33,7 +33,15 @@ class DoctorView(APIView):
 
 
 class PatientView(APIView):
-    def get(self, request, format=None):
+    def get(self, request, patient_id=None, format=None):
+        if patient_id:
+            try:
+                patient = Patient.objects.get(id=patient_id)
+            except Patient.DoesNotExist:
+                message = {"message": "No patient found"}
+                return Response(message, status=status.HTTP_404_NOT_FOUND)
+            serializer = PatientSerializer(patient)
+            return Response(serializer.data)
         patients = Patient.objects.all()
         serializer = PatientSerializer(patients, many=True)
         return Response(serializer.data)

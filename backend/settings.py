@@ -102,12 +102,24 @@ TEMPLATES = [
     },
 ]
 
-DATABASES = {
-    "default": {
-        "ENGINE": "django.db.backends.sqlite3",
-        "NAME": BASE_DIR / "db.sqlite3",
+if DEBUG:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
     }
-}
+else:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql_psycopg2",
+            "NAME": getenv("DJANGO_DATABASE_NAME"),
+            "USER": getenv("DJANGO_DATABASE_USER"),
+            "PASSWORD": getenv("DJANGO_DATABASE_PASSWORD"),
+            "HOST": getenv("DJANGO_DATABASE_HOST"),
+            "PORT": getenv("DJANGO_DATABASE_PORT"),
+        }
+    }
 
 AUTH_PASSWORD_VALIDATORS = [
     {

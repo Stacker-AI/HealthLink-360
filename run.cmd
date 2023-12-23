@@ -11,6 +11,3 @@ python manage.py runserver
 python manage.py createsuperuser
 
 python manage.py graph_models api -o api_model.png
-
-
-gandooo
