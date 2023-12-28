@@ -102,7 +102,7 @@ TEMPLATES = [
     },
 ]
 
-if DEBUG == "True":
+if DEBUG == True:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.sqlite3",
