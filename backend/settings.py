@@ -154,7 +154,7 @@ USE_TZ = True
 STATIC_URL = getenv("DJANGO_STATIC_URL")
 
 STATIC_ROOT = os.path.join(BASE_DIR, "static/")
-
+# Great
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'static/'),
 ]
