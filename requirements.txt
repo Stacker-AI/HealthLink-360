@@ -12,4 +12,3 @@ djoser==2.2.2
 social-auth-app-django==5.4.0
 rest_framework_simplejwt==0.0.2
 django-extensions==3.2.3
-psycopg2==2.9.9
