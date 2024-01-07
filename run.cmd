@@ -1,4 +1,4 @@
-@echo off
+@echo offhello
 
 python -m venv venv
 venv\Scripts\activate
