@@ -4,31 +4,21 @@ from dotenv import load_dotenv
 import os
 
 load_dotenv()
-
-# Settings for static files and media files
-
 BASE_DIR = Path(__file__).resolve().parent.parent
 
+# Static files settings
+STATIC_URL = "/static/"
+STATIC_ROOT = os.path.join(BASE_DIR, "static/")
+
+# Media files settings
+MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / "uploads"
 
-MEDIA_URL = getenv("DJANGO_MEDIA_URL")
-
 # Security settings
-
-SECRET_KEY = getenv("DJANGO_SECRET_KEY")
-
-DEBUG = getenv("DJANGO_DEBUG")
-
-# CORS_ALLOWED_ORIGINS = getenv("DJANGO_CORS_ALLOWED_ORIGINS").split(" ")
-
-CORS_ALLOW_ALL_ORIGINS = True
-
-ALLOWED_HOSTS = getenv("DJANGO_ALLOWED_HOSTS").split(" ")
-
-CORS_ALLOW_CREDENTIALS = getenv("DJANGO_CORS_ALLOW_CREDENTIALS") == "True"
+DEBUG = getenv("DEBUG")
+SECRET_KEY = getenv("SECRET_KEY")
 
 # Application definition
-
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
@@ -47,19 +37,24 @@ INSTALLED_APPS = [
 ]
 
 # Authentication and Authorization settings
+ALLOWED_HOSTS = ["*"]
+CORS_ALLOW_ALL_ORIGINS = True
+CORS_ALLOW_CREDENTIALS = True
+# CORS_ALLOWED_ORIGINS = "http://localhost:4200 http://127.0.0.1:4200"
+
+AUTH_COOKIE = "access"
+AUTH_COOKIE_PATH = "/"
+AUTH_COOKIE_SECURE = True
+AUTH_COOKIE_HTTP_ONLY = True
+AUTH_COOKIE_SAME_SITE = "None"
+AUTH_COOKIE_ACCESS_MAX_AGE = 3600
+AUTH_COOKIE_REFRESH_MAX_AGE = 86400
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": ("users.authentication.CustomJWTAuthentication",),
     "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
 }
 
-AUTH_COOKIE = getenv("DJANGO_AUTH_COOKIE")
-AUTH_COOKIE_ACCESS_MAX_AGE = getenv("DJANGO_AUTH_COOKIE_ACCESS_MAX_AGE")
-AUTH_COOKIE_REFRESH_MAX_AGE = getenv("DJANGO_AUTH_COOKIE_REFRESH_MAX_AGE")
-AUTH_COOKIE_SECURE = getenv("DJANGO_AUTH_COOKIES_SECURE") == "True"
-AUTH_COOKIE_HTTP_ONLY = getenv("DJANGO_AUTH_COOKIES_HTTP_ONLY") == "True"
-AUTH_COOKIE_SAME_SITE = getenv("DJANGO_AUTH_COOKIES_SAME_SITE")
-AUTH_COOKIE_PATH = getenv("DJANGO_AUTH_COOKIES_PATH")
 
 SIMPLE_JWT = {
     "AUTH_HEADER_TYPES": ("JWT",),
@@ -74,7 +69,6 @@ DJOSER = {
     "TOKEN_MODEL": None,
 }
 
-
 MIDDLEWARE = [
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
@@ -88,6 +82,24 @@ MIDDLEWARE = [
 ]
 
 # General settings
+if DEBUG == True:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.sqlite3",
+            "NAME": BASE_DIR / "db.sqlite3",
+        }
+    }
+else:
+    DATABASES = {
+        "default": {
+            "ENGINE": "django.db.backends.postgresql_psycopg2",
+            "NAME": getenv("DATABASE_NAME"),
+            "USER": getenv("DATABASE_USER"),
+            "PASSWORD": getenv("DATABASE_PASSWORD"),
+            "HOST": getenv("DATABASE_HOST"),
+            "PORT": getenv("DATABASE_PORT"),
+        }
+    }
 
 TEMPLATES = [
     {
@@ -105,25 +117,6 @@ TEMPLATES = [
     },
 ]
 
-if DEBUG == True:
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.sqlite3",
-            "NAME": BASE_DIR / "db.sqlite3",
-        }
-    }
-else:
-    DATABASES = {
-        "default": {
-            "ENGINE": "django.db.backends.postgresql_psycopg2",
-            "NAME": getenv("DJANGO_DATABASE_NAME"),
-            "USER": getenv("DJANGO_DATABASE_USER"),
-            "PASSWORD": getenv("DJANGO_DATABASE_PASSWORD"),
-            "HOST": getenv("DJANGO_DATABASE_HOST"),
-            "PORT": getenv("DJANGO_DATABASE_PORT"),
-        }
-    }
-
 AUTH_PASSWORD_VALIDATORS = [
     {
         "NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator",
@@ -139,26 +132,11 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-WSGI_APPLICATION = "backend.wsgi.application"
-
-ROOT_URLCONF = "backend.urls"
-
-LANGUAGE_CODE = "en-us"
-
-TIME_ZONE = "UTC"
-
-USE_I18N = True
-
 USE_TZ = True
-
-STATIC_URL = "/static/"
-
-# STATIC_ROOT = os.path.join(BASE_DIR, "static/")
-
-STATICFILES_DIRS = (
-    os.path.join(BASE_DIR, "static"),
-)
-
-DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
-
+USE_I18N = True
+TIME_ZONE = "UTC"
+LANGUAGE_CODE = "en-us"
+ROOT_URLCONF = "backend.urls"
 AUTH_USER_MODEL = "users.UserAccount"
+WSGI_APPLICATION = "backend.wsgi.application"
+DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
