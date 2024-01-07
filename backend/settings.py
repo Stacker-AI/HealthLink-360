@@ -1,7 +1,7 @@
-from os import getenv
+import os
 from pathlib import Path
 from dotenv import load_dotenv
-import os
+
 
 load_dotenv()
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -15,8 +15,8 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = BASE_DIR / "uploads"
 
 # Security settings
-DEBUG = getenv("DEBUG")
-SECRET_KEY = getenv("SECRET_KEY")
+SECRET_KEY = os.getenv("SECRET_KEY")
+DEBUG = os.getenv("DEBUG", False) == "True"
 
 # Application definition
 INSTALLED_APPS = [
@@ -32,8 +32,8 @@ INSTALLED_APPS = [
     "djoser",
     "users",
     "api",
-    "django_extensions",
-    "django.contrib.admindocs",
+    # "django_extensions",
+    # "django.contrib.admindocs",
 ]
 
 # Authentication and Authorization settings
@@ -82,7 +82,7 @@ MIDDLEWARE = [
 ]
 
 # General settings
-if DEBUG == True:
+if DEBUG:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.sqlite3",
@@ -93,11 +93,11 @@ else:
     DATABASES = {
         "default": {
             "ENGINE": "django.db.backends.postgresql_psycopg2",
-            "NAME": getenv("DATABASE_NAME"),
-            "USER": getenv("DATABASE_USER"),
-            "PASSWORD": getenv("DATABASE_PASSWORD"),
-            "HOST": getenv("DATABASE_HOST"),
-            "PORT": getenv("DATABASE_PORT"),
+            "NAME": os.getenv("DATABASE_NAME"),
+            "USER": os.getenv("DATABASE_USER"),
+            "PASSWORD": os.getenv("DATABASE_PASSWORD"),
+            "HOST": os.getenv("DATABASE_HOST"),
+            "PORT": os.getenv("DATABASE_PORT"),
         }
     }
 
