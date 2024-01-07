@@ -18,7 +18,9 @@ SECRET_KEY = getenv("DJANGO_SECRET_KEY")
 
 DEBUG = getenv("DJANGO_DEBUG")
 
-CORS_ALLOWED_ORIGINS = getenv("DJANGO_CORS_ALLOWED_ORIGINS").split(" ")
+# CORS_ALLOWED_ORIGINS = getenv("DJANGO_CORS_ALLOWED_ORIGINS").split(" ")
+
+CORS_ALLOW_ALL_ORIGINS = True
 
 ALLOWED_HOSTS = getenv("DJANGO_ALLOWED_HOSTS").split(" ")
 
@@ -47,7 +49,7 @@ INSTALLED_APPS = [
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": ("users.authentication.CustomJWTAuthentication",),
-    # "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
+    "DEFAULT_PERMISSION_CLASSES": ("rest_framework.permissions.IsAuthenticated",),
 }
 
 AUTH_COOKIE = getenv("DJANGO_AUTH_COOKIE")
