@@ -10,5 +10,6 @@ python manage.py migrate --run-syncdb
 python manage.py migrate
 python manage.py runserver
 python manage.py createsuperuser
+gunicorn backend.wsgi:application
 
 python manage.py graph_models api -o api_model.png
